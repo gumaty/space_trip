@@ -75,7 +75,13 @@ img {
     text-align: center;
     font-weight: 300;
 }
+
 .container__btn {
+    display: flex;
+    justify-content: center;
+}
+
+.container__btn .btn{
     display: inline-block;
     text-align: center;
     text-decoration: none;
@@ -87,7 +93,7 @@ img {
     transition: all 400ms ease-in-out;
 }
 
-.main__container .container__btn:hover {
+.container__btn .btn:hover {
     background-color: white;
     color: #11203E
 }
